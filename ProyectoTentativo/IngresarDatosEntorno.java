@@ -11,7 +11,7 @@ import ProyectoFinal.Precios;
 import javax.swing.JOptionPane;
 
 /**
- *
+ * 
  * @author barbaspc
  */
 public class IngresarNuevasActividades extends javax.swing.JFrame {
