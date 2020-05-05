@@ -9,7 +9,7 @@ import ProyectoFinal.Huerto;
 import javax.swing.JOptionPane;
 
 /**
- *
+ * 
  * @author Barbas Software
  */
 public class ComprobarHuerto extends javax.swing.JFrame {

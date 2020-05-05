@@ -16,7 +16,7 @@ public class DatosReporte extends javax.swing.JFrame {
 
     public static DatosReporte datosReporte = new DatosReporte();
     /**
-     * Creates new form DatosReporte
+     * Creates new form DatosReporte 
      */
     public void DatosReporte() {
         initComponents();
