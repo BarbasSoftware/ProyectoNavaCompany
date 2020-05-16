@@ -9,7 +9,7 @@ import ProyectoFinal.Huerto;
 import javax.swing.JOptionPane;
 
 /**
- * 
+ * 12
  * @author Barbas Software
  */
 public class ComprobarHuerto extends javax.swing.JFrame {
@@ -24,7 +24,7 @@ public class ComprobarHuerto extends javax.swing.JFrame {
     public void ComprobarHuerto() {
         initComponents();
     }
-
+   
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always

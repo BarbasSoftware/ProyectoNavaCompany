@@ -11,7 +11,7 @@ import ProyectoFinal.Precios;
 import javax.swing.JOptionPane;
 
 /**
- * 
+ *
  * @author barbaspc
  */
 public class IngresarNuevasActividades extends javax.swing.JFrame {
@@ -176,7 +176,7 @@ public class IngresarNuevasActividades extends javax.swing.JFrame {
         jCheckBox23.setBackground(new java.awt.Color(0, 0, 0));
         jCheckBox23.setForeground(new java.awt.Color(0, 255, 255));
         jCheckBox23.setText("Cambio de correa lectora");
-
+  
         jCheckBox24.setBackground(new java.awt.Color(0, 0, 0));
         jCheckBox24.setForeground(new java.awt.Color(0, 255, 255));
         jCheckBox24.setText("Cambio de fuente");
