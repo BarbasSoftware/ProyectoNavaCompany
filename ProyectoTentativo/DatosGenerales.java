@@ -6,8 +6,8 @@
 package Grafico;
 
 import ProyectoFinal.NuevaReporte;
-
-/** 
+ 
+/**
  *
  * @author Barbas Software
  */

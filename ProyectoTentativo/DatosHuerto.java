@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package Grafico;
-
+ 
 import static java.lang.Integer.max;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;

@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Grafico; 
+package Grafico;
 
 import ProyectoFinal.NuevaOrden;
 import ProyectoFinal.Ordenador;
 import javax.swing.JOptionPane;
-
+ 
 /**
  *
  * @author barbaspc

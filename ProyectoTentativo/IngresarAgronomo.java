@@ -4,9 +4,9 @@
  * and open the template in the editor.
  */
 package Grafico;
-
-import javax.swing.JOptionPane;
  
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author Barbas Software

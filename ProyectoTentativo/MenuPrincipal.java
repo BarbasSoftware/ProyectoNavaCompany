@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package Grafico;
-
+ 
 import ProyectoPreliminar.*;
 import java.awt.Graphics;
 import java.awt.Image;
@@ -18,7 +18,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
- 
+
 /**
  *
  * @author Barbas Software

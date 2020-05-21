@@ -4,13 +4,13 @@
  * and open the template in the editor.
  */
 package Grafico;
-
+ 
 import ProyectoFinal.NuevaOrden;
 import ProyectoFinal.Ordenador;
 import ProyectoFinal.Precios;
 import javax.swing.JOptionPane;
 
-/** 
+/**
  *
  * @author barbaspc
  */
