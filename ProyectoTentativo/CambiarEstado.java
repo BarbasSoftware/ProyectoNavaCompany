@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Grafico;
+package Grafico; 
 
 import ProyectoFinal.NuevaOrden;
 import ProyectoFinal.Ordenador;
@@ -14,21 +14,21 @@ import javax.swing.JOptionPane;
  * @author barbaspc
  */
 public class CambiarEstado extends javax.swing.JFrame {
-    
+
     public static int b = 0, flag2 = 0, flag = 0, flag3 = 0;
     private static int c = 0;
-    
 
-    
+
+
     public static CambiarEstado cambiarestado = new CambiarEstado();
     /**
      * Creates new form DatosOrden
      */
     public void CambiarEstado() {
         initComponents();
-        flag2 = 1;    
-    }      
-    
+        flag2 = 1;
+    }
+
     private void realizarBusqueda(){
         b = Integer.parseInt(jTextField1.getText());
         for(int i = 0; i<NuevaOrden.nuevasordenes.nuevaorden.length;i++){
@@ -36,14 +36,14 @@ public class CambiarEstado extends javax.swing.JFrame {
                 c = i;
                 generarDatos(i);
                 flag3 = 1;
-            }            
+            }
         }
         if(flag3 == 0){
             JOptionPane.showMessageDialog(null, "Folio de Equipo incorrecto o inexistente");
             jTextField1.setText(null);
             }
     }
-    
+
     private void generarDatos(int p){
         jLabel2.setText(NuevaOrden.nuevasordenes.nuevaorden[p].nombre);
         jLabel1.setText(NuevaOrden.nuevasordenes.nuevaorden[p].cel);
@@ -57,8 +57,8 @@ public class CambiarEstado extends javax.swing.JFrame {
         jLabel20.setText(String.valueOf(NuevaOrden.nuevasordenes.nuevaorden[p].estado));
         flag = 1;
     }
-    
-    
+
+
     private void limpiarVentana(){
         jLabel2.setText(null);
         jLabel1.setText(null);
@@ -343,12 +343,12 @@ public class CambiarEstado extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        
+
         if(flag == 1){
             NuevaOrden.nuevasordenes.nuevaorden[c].estado = jComboBox1.getSelectedItem().toString();
             cambiarestado.setVisible(false);
             flag = 0;
-            limpiarVentana();   
+            limpiarVentana();
         }
         else{
             JOptionPane.showMessageDialog(null, "Genere los datos antes de continuar");
@@ -356,12 +356,12 @@ public class CambiarEstado extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        
+
         realizarBusqueda();
         jTextField1.setText(null);
-        
-        
-        
+
+
+
     }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
@@ -371,7 +371,7 @@ public class CambiarEstado extends javax.swing.JFrame {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
         /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
+         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html
          */
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {

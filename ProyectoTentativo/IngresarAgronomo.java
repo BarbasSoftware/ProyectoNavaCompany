@@ -6,7 +6,7 @@
 package Grafico;
 
 import javax.swing.JOptionPane;
-
+ 
 /**
  *
  * @author Barbas Software
